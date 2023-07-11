@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Teste</title>
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+     <header>
+
+          <h2 class="logo">@Katsu_Kazama</h2>
+          <nav class="navigation">
+               <a href="#">Home</a>
+               <a href="#">Sobre</a>
+               <a href="#">Serviços</a>
+               <a href="#">Contato</a>
+               <button class="btnLogin-popup">Login</button>
+          </nav>
+     </header>
+
+     <div class="wrapper">
+          <span class="material-symbols-outlined">close</span>
+
+          <div class="form-box login">
+               <h2>Login</h2>
+               <form action="#">
+
+                    <div class="input-box">
+                         <span class="material-symbols-outlined">mail</span>
+                         <input type="Email" required>
+                         <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                         <span class="material-symbols-outlined">lock</span>
+                         <input type="Senha" required>
+                         <label>Senha</label>
+                    </div>
+
+                    <div class="lembrar-senha">
+                         <label for="caixa"><input type="checkbox" name="caixa" id="caixa">Lembrar-me</label>
+                         <a href="#">Esqueceu sua senha?</a>
+                    </div>
+
+                         <button type="submit" class="btn">Login</button>
+                    <div>
+                         <div class="login-register">
+                              <p>Não possui uma conta?<a href="#" class="register-link"> Registre-se</a></p>
+                         </div>
+                    </div>
+               </form>
+          </div>
+
+          <div class="form-box register">
+               <h2>Registrar</h2>
+               <form action="#">
+
+                    <div class="input-box">
+                         <span class="material-symbols-outlined">Person</span>
+                         <input type="text" required>
+                         <label>Usuário</label>
+                    </div>
+
+                    <div class="input-box">
+                         <span class="material-symbols-outlined">mail</span>
+                         <input type="Email" required>
+                         <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                         <span class="material-symbols-outlined">lock</span>
+                         <input type="Senha" required>
+                         <label>Senha</label>
+                    </div>
+
+                    <div class="lembrar-senha">
+                         <label for="caixa1"><input type="checkbox" name="caixa1" id="caixa1">Eu li e concordo com os termos de uso</label>
+                    </div>
+
+                         <button type="submit" class="btn">Registrar</button>
+                    <div>
+                         <div class="login-register">
+                              <p>Já possui uma conta?<a href="#" class="login-link"> Login</a></p>
+                         </div>
+                    </div>
+               </form>
+          </div>
+
+     </div>
+
+     <script src="script.js"></script>
+
+</body>
+
+</html>
